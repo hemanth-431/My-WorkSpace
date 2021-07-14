@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package who;
+
+message Void {}
+
+// None of these responses are publicly cacheable.
+// Clients must send a client ID header.
+service WhoService {
+
+  rpc putDeviceToken(PutDeviceTokenRequest) returns (Void);
+
+  // The client should not pass a precise location.
+  rpc putLocation(PutLocationRequest) returns (Void);
+
+  rpc getCaseStats(Void) returns (GetCaseStatsResponse);
+}
+
+message PutDeviceTokenRequest {
+  string token = 1;
+}
+
+message PutLocationRequest {
+  // ISO 3166-1 alpha-2 (uppercase) code
+  string isoCountryCode = 12;
+}
+
+message GetCaseStatsResponse {
+  CaseStats globalStats = 1;
+
+  // TODO: Add local stats fields too, potentially at multiple administrative levels.
+
+  // Clients should not re-request stats until at least ttl seconds.
+  uint64 ttl = 2;
+}
+
+message StatSnapshot {
+  uint64 epochMsec = 1;
+
+  int64 dailyCases = 2;
+  int64 dailyDeaths = 3;
+  int64 dailyRecoveries = 4;
+
+  int64 totalCases = 5;
+  int64 totalDeaths = 6;
+  int64 totalRecoveries = 7;
+}
+
+// Statistics in a single or aggregate jurisdiction.
+message CaseStats {
+  JurisdictionType jurisdictionType = 7;
+  // empty for global stats
+  string jurisdiction = 1;
+
+  // msec since epoch.
+  uint64 lastUpdated = 2;
+
+  int64 cases = 3;
+  int64 deaths = 4;
+  int64 recoveries = 5;
+
+  string attribution = 6;
+
+  repeated StatSnapshot timeseries = 8;
+}
+
+enum JurisdictionType {
+  GLOBAL = 0;
+  WHO_REGION = 1;
+  COUNTRY = 2;
+}
+
+enum Platform {
+  IOS = 0;
+  ANDROID = 1;
+  WEB = 2;
+}

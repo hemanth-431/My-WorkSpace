@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840111114112",
+    "firebase_url": "https://focus-app-database.firebaseio.com",
+    "project_id": "focus-app-database",
+    "storage_bucket": "focus-app-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840111114112:android:884b88f62953713df16365",
+        "android_client_info": {
+          "package_name": "com.codinginflow.klfocus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840111114112-000clfj48k9iavarq1n8j6o8449ekdt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codinginflow.klfocus",
+            "certificate_hash": "3a852d83575099fb42322c42ace875491a105cc3"
+          }
+        },
+        {
+          "client_id": "840111114112-5si3901bo3aibmqle0q4r83eeo4fqb2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQTUbLWREedk5XCa8sogNKQciP50frO0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840111114112-5si3901bo3aibmqle0q4r83eeo4fqb2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

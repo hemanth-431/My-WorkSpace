@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">spinner</string>
+    <array name="gen">
+        <item>Rock</item>
+        <item>Hello</item>
+        <item>World</item>
+        <item>Joker</item>
+    </array>
+
+
+</resources>

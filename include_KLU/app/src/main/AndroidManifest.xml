@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hashincludeklu">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.hashincludeklu.workshop6"></activity>
+        <activity android:name="com.example.hashincludeklu.workshop5" />
+        <activity android:name="com.example.hashincludeklu.workshop4" />
+        <activity android:name="com.example.hashincludeklu.workshop3" />
+        <activity android:name="com.example.hashincludeklu.workshop2" />
+        <activity android:name="com.example.hashincludeklu.workshop1" />
+        <activity android:name="com.example.hashincludeklu.WorkShops" />
+        <activity android:name="com.example.hashincludeklu.nt1" />
+        <activity android:name="com.example.hashincludeklu.hs1" />
+        <activity android:name="com.example.hashincludeklu.hs" />
+        <activity android:name="com.example.hashincludeklu.cco1" />
+        <activity android:name="com.example.hashincludeklu.cco" />
+        <activity android:name="com.example.hashincludeklu.ic1" />
+        <activity android:name="com.example.hashincludeklu.ic" />
+        <activity android:name="com.example.hashincludeklu.t1" />
+        <activity android:name="com.example.hashincludeklu.Tactivity" />
+        <activity android:name="com.example.hashincludeklu.gallery5" />
+        <activity android:name="com.example.hashincludeklu.gallery4" />
+        <activity android:name="com.example.hashincludeklu.gallery3" />
+        <activity android:name="com.example.hashincludeklu.gallery2" />
+        <activity android:name="com.example.hashincludeklu.gallery1" />
+        <activity android:name="com.example.hashincludeklu.eventsG" />
+        <activity android:name="com.example.hashincludeklu.Developers" />
+        <activity android:name="com.example.hashincludeklu.hackthon9" />
+        <activity android:name="com.example.hashincludeklu.hackthon8" />
+        <activity android:name="com.example.hashincludeklu.hackthon7" />
+        <activity android:name="com.example.hashincludeklu.cen" />
+        <activity android:name="com.example.hashincludeklu.cen1" />
+        <activity android:name="com.example.hashincludeklu.mht" />
+        <activity android:name="com.example.hashincludeklu.mht1" />
+        <activity android:name="com.example.hashincludeklu.flp" />
+        <activity android:name="com.example.hashincludeklu.flp1" />
+        <activity android:name="com.example.hashincludeklu.fh" />
+        <activity android:name="com.example.hashincludeklu.ppn" />
+        <activity android:name="com.example.hashincludeklu.pon" />
+        <activity android:name="com.example.hashincludeklu.de" />
+        <activity android:name="com.example.hashincludeklu.peo" />
+        <activity android:name="com.example.hashincludeklu.spbe" />
+        <activity android:name="com.example.hashincludeklu.spbe1" />
+        <activity android:name="com.example.hashincludeklu.tq" />
+        <activity android:name="com.example.hashincludeklu.tq1" />
+        <activity android:name="com.example.hashincludeklu.trhu" />
+        <activity android:name="com.example.hashincludeklu.est" />
+        <activity android:name="com.example.hashincludeklu.trhu1" />
+        <activity android:name="com.example.hashincludeklu.wdsc" />
+        <activity android:name="com.example.hashincludeklu.wdsc1" />
+        <activity android:name="com.example.hashincludeklu.snl" />
+        <activity android:name="com.example.hashincludeklu.snl1" />
+        <activity android:name="com.example.hashincludeklu.de1" />
+        <activity android:name="com.example.hashincludeklu.hcs" />
+        <activity android:name="com.example.hashincludeklu.hcs1" />
+        <activity android:name="com.example.hashincludeklu.mgt" />
+        <activity android:name="com.example.hashincludeklu.mgt1" />
+        <activity android:name="com.example.hashincludeklu.fh1" />
+        <activity android:name="com.example.hashincludeklu.hs2" />
+        <activity android:name="com.example.hashincludeklu.hs21" />
+        <activity android:name="com.example.hashincludeklu.vc" />
+        <activity android:name="com.example.hashincludeklu.vc1" />
+        <activity android:name="com.example.hashincludeklu.wka" />
+        <activity android:name="com.example.hashincludeklu.wka1" />
+        <activity android:name="com.example.hashincludeklu.cry" />
+        <activity android:name="com.example.hashincludeklu.cry1" />
+        <activity android:name="com.example.hashincludeklu.sd" />
+        <activity android:name="com.example.hashincludeklu.sd1" />
+        <activity android:name="com.example.hashincludeklu.hackthon6" />
+        <activity android:name="com.example.hashincludeklu.hackthon5" />
+        <activity android:name="com.example.hashincludeklu.hackthon4" />
+        <activity android:name="com.example.hashincludeklu.hackthon3" />
+        <activity android:name="com.example.hashincludeklu.hackthon2" />
+        <activity android:name="com.example.hashincludeklu.hackthon1" />
+        <activity android:name="com.example.hashincludeklu.hackton" />
+        <activity android:name="com.example.hashincludeklu.scrolling" />
+        <activity android:name="com.example.hashincludeklu.FullScreen" />
+        <activity android:name="com.example.hashincludeklu.gallery" />
+        <activity android:name="com.example.hashincludeklu.HomePage" />
+        <activity android:name="com.example.hashincludeklu.profile" />
+        <activity android:name="com.example.hashincludeklu.forgetpassword" />
+        <activity android:name="com.example.hashincludeklu.Registor" />
+        <activity android:name="com.example.hashincludeklu.loginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hashincludeklu.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
